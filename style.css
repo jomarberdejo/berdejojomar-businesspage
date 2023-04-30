@@ -120,7 +120,7 @@
   .homepage .logo img{
     width: 400px;
    position: absolute;
-   top: 30%;
+   top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
   }
@@ -131,7 +131,7 @@
     font-size: 2rem;
     margin: 0 0;
     position: absolute;
-    top: 52%;
+    top: 70%;
     left: 20%;
     transform: translate(-14%, -50%);
     z-index: 1;
@@ -588,9 +588,27 @@
     nav ul.show {
       transform: translateX(0);
     }
-     .homepage .logo img{
-        width: 200px;
-   }
+
+  .homepage .logo img{
+    width: 200px;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  }
+  
+  
+  .homepage h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-14%, -50%);
+    z-index: 1;
+  }
+   
     
       .product-item {
           width: 100%;
