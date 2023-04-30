@@ -131,7 +131,7 @@
     font-size: 2rem;
     margin: 0 0;
     position: absolute;
-    top: 70%;
+    top: 78%;
     left: 20%;
     transform: translate(-14%, -50%);
     z-index: 1;
@@ -554,7 +554,7 @@
 
     
   
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
       nav {
       padding: 1.5rem 1rem;
     }
@@ -634,7 +634,7 @@
       
   }
   
-  @media screen and (max-width: 420px){
+  @media (max-width: 420px){
         nav h1{
           font-size: 1.3rem;
         }
@@ -663,7 +663,7 @@
   .location-container {
     width: 95%;
   }
-}
+
    
     .contact-us-title {
       margin: 8px 0;
