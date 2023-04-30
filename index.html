@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kuya JC Fried Chicken</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+  <script
+    type="nomodule"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+
+  <!--Header starts here-->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="main-logo.jpg" alt="">
+      </div>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#franchise" class="nav-link">Franchise</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#commitment" class="nav-link">Commitment</a></li>
+        <li><a href="#contact" class="nav-link">Contact Us</a></li>
+        <li><a href="#faq" class="nav-link">FAQ's</a></li>
+      </ul>
+
+      <!--Burger menu-->
+
+      <button class="burger-menu" id="burger-menu" class="nav-link">
+        <ion-icon class="bars" name="menu-outline" class="nav-link"></ion-icon> </button>
+    </nav>
+  </header>
+  <!--Header ends here-->
+
+  <!--Homepage-->
+  <div class="homepage" id="home">
+    <div class="logo">
+      <img src="logo-home.png" alt="">
+    </div>
+
+    <h1>
+      <span class="homepage-title">Kuya JC Fried Chicken</span> is the latest among the number of businesses under the Franco group. From each launch to this very moment. Kuya JC Fried Chicken Slogan <i>"Kanyaman Na"</i> meaning it is a delicious, is derived from a Kapampangan word as the owner founder is Kapampangan himself. Kapampangan, as what the people in the province of Pampanga, are well known for their passion for food.
+    </h1>
+
+  </div>
+
+
+  <!--Main content starts-->
+
+  <main>
+
+    <!--Services section-->
+
+    <section class="services-section" id="services">
+      <h2>Services<span id="services-title-span"> Offered</span></h2>
+      <div class="services-item-container">
+        <div class="grp grp1">
+
+
+          <div class="img">
+            <img src="foodbeverages.jpg" alt="">
+          </div>
+          <h3>Food & Beverages</h3>
+          <p>
+            Looking for something new to try? Discover our wide range of food and beverage offerings! From our signature fried chicken to our refreshing drinks, we have something for everyone.
+          </p>
+
+        </div>
+        <div class="grp grp2">
+
+          <div class="img">
+            <img src="takeout.jpg" alt="">
+          </div>
+          <h3>Take - Out Services</h3>
+          <p>
+            Busy schedule? No problem! Grab our mouth-watering meals to go with our convenient take-out service. Enjoy our delicious food wherever you are!
+          </p>
+
+        </div>
+        <div class="grp grp3">
+          <div class="img">
+            <img src="dinein.jpg" alt="">
+          </div>
+          <h3>Dine - In Services</h3>
+          <p>
+            Dine in and savor the delicious taste of our crispy fried chicken and Filipino-style dishes! Our cozy restaurants are the perfect place to enjoy a satisfying meal with your friends and family.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--Franchise package section -->
+    <section class="franchise-section" id="franchise">
+      <h2>Franchise Packages</h2>
+      <div class="franchise-list">
+        
+
+        <div class="franchise-item">
+          <img src="package1.jpg">
+          <h3>Basic Food Cart Package</h3>
+        </div>
+
+        <div class="franchise-item">
+          <img src="package2.jpg">
+          <h3>Standard Food Cart Package</h3>
+        </div>
+
+        <div class="franchise-item">
+          <img src="package3.jpg">
+          <h3>Customize Kiosk Package</h3>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--Products section-->
+
+    <section class="product-section" id="products">
+      <h2>Products</h2>
+      <div class="filter-section">
+        <label for="filter-select">Select Category:</label>
+        <select id="filter-select">
+          <option value="all">All</option>
+          <option value="best-seller">Best Seller</option>
+          <option value="chicken">Chicken</option>
+          <option value="burger">Burger</option>
+          <option value="fries">Fries</option>
+          <option value="spaghetti">Spaghetti</option>
+
+        </select>
+
+      </div>
+      <div class="product-list">
+        <div class="product-item" data-category="chicken" data-category1="burger" >
+          <img src="chickenburger.jpg">
+          <h3>Chicken Burger</h3>
+          <p>
+            Price: &#8369; 75.00
+          </p>
+        </div>
+
+        <div class="product-item" data-category="chicken" data-category1="best-seller">
+          <img src="chickenwings.jpg">
+          <h3>Chicken Wings</h3>
+          <p>
+            Price: &#8369; 499 /Bucket
+          </p>
+        </div>
+        
+       <div class="product-item" data-category="chicken" data-category1="best-seller" >
+          <img src="friedchickenbucket.jpg">
+          <h3>Fried Chicken Bucket</h3>
+          <p>
+            Price: &#8369; 349.00 / Bucket
+          </p>
+        </div>
+
+        <div class="product-item" data-category="fries">
+          <img src="friesandtea.jpg">
+          <h3>Fries</h3>
+          <p>
+            Price: &#8369; 50 / Combo
+          </p>
+        </div>
+
+        <div class="product-item" data-category="burger">
+          <img src="beefburger.jpg">
+          <h3>Beef Burger</h3>
+          <p>
+            Price: &#8369; 69.00
+          </p>
+        </div>
+
+        <div class="product-item" data-category="spaghetti">
+          <img src="spag.jpg">
+          <h3>Spaghetti</h3>
+          <p>
+            Price: &#8369; 59.00
+          </p>
+        </div>
+
+        <div class="product-item" data-category="chicken">
+          <img src="chickenbite.jpg">
+          <h3>Chicken Bites</h3>
+          <p>
+            Price: &#8369; 49.00
+          </p>
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+    <!--Our Commitment to Quality & Service section-->
+
+    <section class="commitment-section" id="commitment">
+      <h2>Commitment to Quality & Service</h2>
+      <div class="commitment-container">
+        <div class="commitment-slide">
+          <img src="commitment1.jpg" alt="Commitment 1">
+          <blockquote>
+            "There's a reason our regulars are coming back for more. Word of mouth has been out only advertisement -but happy mouths are the best ambassadors."
+          </blockquote>
+
+        </div>
+        <div class="commitment-slide">
+          <img src="commitment2.jpg" alt="commitment 2">
+          <blockquote>
+            "<span class= "commitment-title">Mission:</span> To provide a good business oppurtunity that will engage every business wannabees to get a grip of starting their own business in the most comfortable way."
+          </blockquote>
+
+        </div>
+
+        <div class="commitment-slide">
+          <img src="commitment3.jpg" alt="commitment 3">
+          <blockquote>
+            "<span class="commitment-title">Vision:</span> To be the leading business solutions and franchise provider in the country."
+          </blockquote>
+        </div>
+        
+      </div>
+    </section>
+
+
+    <!--Contact section-->
+
+    <section class="contact-section" id="contact">
+      <h2>Get in touch and find us</h2>
+      <div class="contact-container">
+        <div class="form-container">
+          <form action="https://formspree.io/f/xqkonayp" method="POST">
+            <div class="contact-us-title">
+              You can reach us by phone, email, or by filling out the contact form below. 
+            </div>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Product:</label>
+              <textarea id="message" name="product" placeholder="Your questions, comments, or inquiries about Kuya JC Fried Chicken" required></textarea>
+            </div>
+            <div class="submit-container">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="location-container">
+          <div class="location">
+            <div class="location-title">
+              Location
+            </div>
+            <img src="map.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FAQ's section-->
+
+    <section class="faq-section" id="faq">
+      <h2>Frequently Asked Questions:</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Q: What is Kuya JC Fried Chicken?
+          </div>
+          <div class="accordion-content">
+            <p>
+              A: Kuya JC Fried Chicken is a food business under the Franco group that offers a wide range of food and beverage offerings. Its signature fried chicken and Filipino-style dishes are perfect for dine-in, take-out, and delivery.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Q: What is the meaning behind Kuya JC Fried Chicken's slogan "Kanyaman Na"?
+          </div>
+          <div class="accordion-content">
+            <p>
+              A: "Kanyaman Na" is a Kapampangan word that means "delicious." Kuya JC Fried Chicken's owner and founder is Kapampangan himself, and the business is inspired by the province's passion for food.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Q: What services does Kuya JC Fried Chicken offer?
+          </div>
+          <div class="accordion-content">
+            <p>
+              A: Kuya JC Fried Chicken offers food and beverage services, take-out services, and dine-in services. Its cozy restaurants are perfect for a satisfying meal with your friends and family.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Q: Does Kuya JC Fried Chicken offer franchising opportunities?
+          </div>
+          <div class="accordion-content">
+            <p>
+              A: Yes, Kuya JC Fried Chicken offers franchise packages such as the Basic Food Cart Package, Standard Food Cart Package, and Customise Kiosk Package.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Q: What are Kuya JC Fried Chicken's best-seller products?
+
+          </div>
+          <div class="accordion-content">
+            <p>
+              A: Kuya JC Fried Chicken's best-seller products include Chicken Wings and Fried Chicken Bucket.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Q: How much do Kuya JC Fried Chicken's products cost?
+          </div>
+          <div class="accordion-content">
+            <p>
+              A: Prices range from ₱ 49.00 to ₱ 499.00 depending on the product and combo deals available.
+            </p>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Q: Owner
+          </div>
+          <div class="accordion-content">
+            <p>
+              A: Franco Group of Companies <br>
+              (Mr. Joseph C. Franco)
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Q. About Master Franchise (Region 8)
+          </div>
+          <div class="accordion-content">
+            <p>
+              A. Main Office (Ponong Carigara, Leyte
+               <br>
+              Branches:
+              <br>
+              <li>Carigara</li>
+              <li>Barugo</li>
+              <li>Jaro</li>
+              <li>San Miguel</li>
+              <li>Tacloban</li>
+              <li>Soon to open Capoocan</li>
+            </p>
+            
+            
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+  </main>
+  <!--End of main content-->
+
+  <!--Footer section-->
+  <footer>
+    <a href="#home"><i class="fa-sharp fa-solid fa-angle-up fa-bounce"></i></a>
+    <p>
+<i class="fa-solid fa-location-dot social"></i> <a href="https://www.google.com/maps?q=Corner+J.+Riel,+Jose+P.+Rizal+St,+Carigara,+Leyte+6529">Corner J. Riel, Jose P. Rizal St, Carigara, Leyte 6529</a>
+
+
+    </p>
+
+    <p>
+      <i class="fa-solid fa-phone social"></i> <a href="tel: 091-505-85321">0915-505-85321</a>
+    </p>
+
+    <p>
+      <a href="https://www.facebook.com/maarteahub"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://instagram.com/mai.artea?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:maiquedenice.143@gmail.com"><i class="fa-solid fa-envelope"></i>
+      </a>
+    </p>
+
+    <p>
+      &copy; 2023 BS Entrep
+    </p>
+
+
+  </footer>
+  <script src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
