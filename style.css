@@ -134,7 +134,7 @@ footer p a:hover {
 .homepage .logo img {
   width: 300px;
   position: absolute;
-  top: 37%;
+  top: 40vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -145,7 +145,7 @@ footer p a:hover {
   font-size: 2rem;
   margin: 0 0;
   position: absolute;
-  top: 78%;
+  top: 60vh;
   left: 20%;
   transform: translate(-14%, -50%);
   z-index: 1;
