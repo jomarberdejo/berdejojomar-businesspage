@@ -473,10 +473,11 @@
 }
 
 
-  /*FAQ's section*/
+  /*FAQ's section*/ /*!!*/
   	  .faq-section {
-    max-width: 600px;
+    max-width: 80%;
     margin: 100px auto;
+    width: 700px;
 
 }
 
