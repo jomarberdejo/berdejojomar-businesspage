@@ -149,9 +149,11 @@ footer p a:hover {
   left: 20%;
   transform: translate(-14%, -50%);
   z-index: 1;
+  font-weight: 700;
 }
 .homepage-title {
   color: #ffd93d;
+  font-weight: 900;
 }
 
 /*Services section*/
@@ -189,14 +191,14 @@ footer p a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 20px;
   color: #f39c12;
   font-weight: 600;
   letter-spacing: 1.5px;
 }
 h2 {
-  font-weight: 800;
+  font-weight: 700;
   color: #fff;
   padding: 10px;
   font-size: 1.8rem;
@@ -527,6 +529,23 @@ button[type="submit"]:hover {
   bottom: 3%;
   right: 3%;
   cursor: pointer;
+}
+/*Tooltip for going to top*/
+a[title] {
+  position: relative;
+}
+
+a[title]:hover:after {
+  content: attr(title);
+  padding: 4px 8px;
+  color: #fff;
+  background: #000;
+  font-size: 14px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 9999;
 }
 
 /*Footer section*/
