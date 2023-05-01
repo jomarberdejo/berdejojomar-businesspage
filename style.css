@@ -20,8 +20,14 @@ header {
   height: auto;
 }
 header nav .logo img {
+  cursor: pointer;
   width: 80px;
   clip-path: circle();
+  transition: transform 0.2s ease-in-out;
+}
+
+header nav .logo img:hover, header nav .logo img:active{
+  transform: scale(1.1);
 }
 
 nav {
@@ -132,6 +138,7 @@ footer p a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 .homepage h1 {
   text-align: center;
@@ -443,7 +450,7 @@ button[type="submit"]:hover {
   width: 45%;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  padding: 10px 40px;
+  padding: 10px 10px;
 }
 
 .location-container {
@@ -539,6 +546,7 @@ footer {
 footer p a {
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 footer p:hover {
   color: #f3deba;
