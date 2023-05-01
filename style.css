@@ -544,8 +544,11 @@
     color: #fff;
     text-decoration: none;
   }
+  footer p a:hover{
+    color: #f3deba;
+  }
   
-  .fa-facebook, .fa-instagram, .fa-envelope{
+  .fa-facebook {
     font-size: 25px;
     color: #fff;
     margin: 0 5px;
