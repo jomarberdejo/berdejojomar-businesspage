@@ -159,13 +159,14 @@
         text-align: center;
       }
       .grp{
-        flex: 0 0 300px;
+        flex: 0 0 33%;
         border-radius: 5px;
         padding: 10px;
         margin: 10px;
         border: 1px solid #27AE60 ;
         background-color: #123444;
         cursor: pointer;
+        width: 300px;
       }
       .grp:hover{
         background-color: rgba(0,0,0,0.5);
@@ -192,8 +193,8 @@
       }
       .grp .img img{
         border: 2px solid #ddd;
-        width: 180px;
-        height: 180px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
         transition: transform 2s;
         filter: drop-shadow(2px 2px 10px #000000);
