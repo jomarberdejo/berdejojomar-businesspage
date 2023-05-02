@@ -16,6 +16,11 @@ body {
   background-color: #000000;
 }
 
+/*General style for image*/
+img{
+  cursor: pointer;
+}
+
 header {
   height: auto;
 }
@@ -223,7 +228,7 @@ h2 {
 
 /*Franchise package section*/
 
-.franchise-item img {
+.franchise-item img{
   width: 90%;
   filter: drop-shadow(2px 3px 4px gray);
 }
@@ -491,7 +496,7 @@ button[type="submit"]:hover {
 .accordion {
   border: 1px solid #ddd;
   margin-top: 30px;
-  filter: drop-shadow(2px 3px 4px gray);
+
 }
 
 .accordion-item {
@@ -530,23 +535,6 @@ button[type="submit"]:hover {
   right: 3%;
   cursor: pointer;
 }
-/*Tooltip for going to top*/
-a[title] {
-  position: relative;
-}
-
-a[title]:hover:after {
-  content: attr(title);
-  padding: 4px 8px;
-  color: #fff;
-  background: #000;
-  font-size: 14px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  z-index: 9999;
-}
 
 /*Footer section*/
 footer {
@@ -580,7 +568,7 @@ footer .fa-facebook:hover{
   color: orange;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1030px) {
   nav {
     padding: 1.5rem 1rem;
   }
@@ -615,6 +603,9 @@ footer .fa-facebook:hover{
     transform: translateX(0);
   }
 
+}
+
+  @media (max-width: 768px){
   .homepage .logo img {
     width: 200px;
     position: absolute;
@@ -634,9 +625,7 @@ footer .fa-facebook:hover{
     z-index: 1;
   }
 
-  .product-item {
-    width: 100%;
-  }
+
 
   .commitment-container {
     display: flex;
