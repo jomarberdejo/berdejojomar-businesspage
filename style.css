@@ -687,30 +687,4 @@ footer .fa-facebook:hover{
   }
 }
 
-@media (max-height: 800px){
-  .homepage h1{
-    font-size: 1.2rem;
-  }
-}
 
-@media (max-height: 770px){
- .homepage .logo img {
-    width: 200px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .homepage h1 {
-    text-align: center;
-    font-size: 1rem;
-    margin: 0 0;
-    position: absolute;
-    top: 75%;
-    left: 20%;
-    transform: translate(-14%, -50%);
-    z-index: 1;
-  }
-
-}
