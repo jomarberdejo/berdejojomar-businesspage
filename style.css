@@ -686,7 +686,21 @@ footer .fa-facebook:hover{
     max-width: 85%;
   }
 }
+@media (max-width: 500px) {
 
+  nav h1 {
+
+    font-size: 1.3rem;
+
+  }
+
+  .homepage h1 {
+
+    font-size: 1rem;
+
+    top: 70%;
+
+  }
 @media (max-height: 900px){
   .homepage h1{
     font-size: 1.1rem;
