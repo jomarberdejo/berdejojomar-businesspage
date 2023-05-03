@@ -620,8 +620,8 @@ footer .fa-facebook:hover{
     margin: 0 0;
     position: absolute;
     top: 40%;
-    left: 20%;
-    transform: translate(-14%, -50%);
+    left: 16%;
+    transform: translate(-10%, -50%);
     z-index: 1;
   }
 
