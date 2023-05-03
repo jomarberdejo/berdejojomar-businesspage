@@ -646,7 +646,7 @@ footer .fa-facebook:hover{
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 950px) {
   nav h1 {
     font-size: 1.3rem;
   }
