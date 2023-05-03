@@ -680,8 +680,18 @@ footer .fa-facebook:hover{
     color: #f3deba;
     font-weight: 700;
   }
+  
 
   .faq-section {
     max-width: 85%;
   }
+}
+
+
+@media (max-height: 800px){
+ 
+.homepage h1{
+  font-size: 1.3rem;
+  }
+
 }
