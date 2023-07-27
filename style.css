@@ -26,7 +26,7 @@ header {
 }
 header nav .logo img {
   cursor: pointer;
-  width: 80px;
+  width: 40px;
   clip-path: circle();
   transition: transform 0.2s ease-in-out;
 }
@@ -41,7 +41,7 @@ nav {
   padding: 20px;
   position: fixed;
   top: 0;
-  height: 100px;
+  height: 70px;
   left: 0;
   z-index: 999;
   width: 100%;
@@ -52,7 +52,7 @@ nav {
 
 .burger-menu {
   color: white;
-  font-size: 3.4rem;
+  font-size: 2.4rem;
   border: 0;
   background-color: transparent;
   cursor: pointer;
@@ -95,17 +95,6 @@ footer p a:hover {
   }
   */
 
-/*Parcticles JS background*/
-
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  z-index: 1;
-
-}
-  
 .homepage {
   height: 100vh;
   width: 100%;
@@ -576,11 +565,11 @@ footer .fa-facebook:hover{
     position: fixed;
     background-color: #000;
     flex-direction: column;
-    top: 100px;
+    top: 70px;
     left: 0%;
     height: 100vh;
     width: 100%;
-    gap: 2.3rem;
+    gap: 2.5rem;
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
