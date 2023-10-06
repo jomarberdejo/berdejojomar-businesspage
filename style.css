@@ -161,17 +161,18 @@ footer p a:hover {
 }
 .services-section h2 {
   margin-bottom: 20px;
-  text-align: center;
+  
 }
 #services-title-span {
   color: #f39c12;
+  
 }
 .services-item-container {
   display: flex;
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  text-align: left;
+  text-align: center;
 }
 .grp {
   flex: 0 0 33%;
