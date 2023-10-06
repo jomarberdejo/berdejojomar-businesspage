@@ -135,8 +135,9 @@ footer p a:hover {
 
 
 .homepage h1 {
-  text-align: center;
+  text-align: left;
   font-size: 2rem;
+  text-wrap: balance;
   margin: 0 0;
   position: absolute;
   top: 78%;
