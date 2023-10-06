@@ -172,8 +172,18 @@ footer p a:hover {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+  
+}
+
+.services-item-container h3{
   text-align: center;
 }
+
+.services-item-container p{
+  text-align: left;
+  text-wrap: balance;
+}
+
 .grp {
   flex: 0 0 33%;
   border-radius: 5px;
