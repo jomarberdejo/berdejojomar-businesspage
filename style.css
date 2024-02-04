@@ -353,6 +353,7 @@ h2 {
   display: block;
   width: 250px;
   height: 250px;
+  margin: auto;
   border-radius: 50%;
   transition: transform 2s;
   filter: drop-shadow(2px 3px 4px gray);
